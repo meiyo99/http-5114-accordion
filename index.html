@@ -1,0 +1,50 @@
+<!--
+https://github.com/codeadamca/javascript-accordion
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Accordion</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>JavaScript Accordion</h1>
+
+    <div class="accordion">
+      <div>
+        <a href="#" onclick="accordion_toggle('section-1')">Section 1</a>
+      </div>
+      <div class="accordion-section" id="section-1">
+        <h2>Section 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel quae sunt sequi vitae eaque rem eius labore inventore fugiat incidunt quibusdam, sapiente necessitatibus commodi assumenda voluptatem explicabo, ullam natus?
+        </p>
+        <p>Ipsum dolor sit amet.</p>
+      </div>
+
+      <div>
+        <a href="#" onclick="accordion_toggle('section-2')">Section 2</a>
+      </div>
+      <div class="accordion-section" id="section-2">
+        <h2>Section 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla debitis nisi eum, dolore exercitationem quae voluptate pariatur. Quo magnam enim est accusantium recusandae ipsum maxime nemo harum id ut.
+        </p>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+
+      <div>
+        <a href="#" onclick="accordion_toggle('section-3')">Section 3</a>
+      </div>
+      <div class="accordion-section" id="section-3">
+        <h2>Section 3</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias in officiis quisquam eaque totam hic aspernatur labore repellendus, voluptatibus fuga magnam, aliquid, provident corporis sequi incidunt nihil iste voluptas delectus!</p>
+      </div>
+    </div>
+
+    <script src="accordion.js"></script>
+  </body>
+</html>
