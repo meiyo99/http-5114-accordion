@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .accordion {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .accordion div a {
+    display: block;
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion > div > a:hover {
+    background-color: #c4c4c4;
+    color: #000;
+  }
+  
+  .accordion-section {
+    padding: 15px 20px;
+    background-color: #fff;
+    display: none;
+  }
+  
+  .accordion-section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .accordion-section p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
